@@ -1,0 +1,9 @@
+.page {
+  position: relative;
+  min-width: 1280px;
+  height: 6875px;
+  background-color: #2A2C2F;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+
+}
