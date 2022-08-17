@@ -1,10 +1,11 @@
-.header__lang-link:first-of-type {
+.header__lang-link {
   position: absolute;
   top: 46px;
   right: 95px;
   width: 30px;
   height: 28px;
-  font-family: 'Inter';
+  margin: 0;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -18,13 +19,10 @@
   position: absolute;
   top: 46px;
   right: 48px;
-  width: 30px;
-  height: 28px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
-  color: #ffffff;
-  text-decoration: none;
+  margin: 0;
+}
+
+.header__lang-link:active {
+  text-decoration: underline;
+  cursor: pointer;
 }
