@@ -1,7 +1,7 @@
 .photo-grid__list {
   display: grid;
-  grid-template-columns: repeat(4, minmax(284px, auto));
-  grid-template-rows: repeat(auto-fit, minmax(213px, auto));
+  grid-template-columns: repeat(4, minmax(284px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
   gap: 16px;
   justify-content: center;
   margin: 0;
