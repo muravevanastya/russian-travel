@@ -5,4 +5,28 @@
   grid-template-areas: "place__title place__website"
   "place__image place__text";
   margin: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .place__item {
+      grid-column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  .place__item {
+      grid-column-gap: 28px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__item {
+      grid-row-gap: 32px;
+      grid-template-areas:
+      "place__title"
+      "place__website"
+      "place__image"
+      "place__text";
+  }
 }

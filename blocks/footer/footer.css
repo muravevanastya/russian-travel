@@ -1,6 +1,21 @@
 .footer {
-  max-width: 1184px;
+  width: calc(100% - 48px * 2);
   display: flex;
   justify-content: space-between;
   padding: 92px 48px 24px;
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 321px) {
+  .footer {
+    width: calc(100% - 24px * 2);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    width: calc(100% - 16px * 2);
+    flex-direction: column;
+    row-gap: 48px;
+  }
 }

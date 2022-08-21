@@ -1,4 +1,5 @@
 .cover__link {
+  width: 100%;
   text-decoration: none;
   display: flex;
   flex-direction: column;
@@ -21,6 +22,4 @@
 .cover__link:hover::before {
   opacity: 0.8;
 }
-
-
 
