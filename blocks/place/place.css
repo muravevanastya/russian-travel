@@ -1,0 +1,9 @@
+.place {
+  padding: 0;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  
+}
