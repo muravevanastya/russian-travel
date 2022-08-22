@@ -1,11 +1,12 @@
 .place__link {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   text-decoration-line: underline;
   color: #ffffff;
+  width: 100%;
   transition: opacity 0.1s linear 0s;
   opacity: 1;
 }

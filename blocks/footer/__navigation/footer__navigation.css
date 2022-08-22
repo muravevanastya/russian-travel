@@ -1,5 +1,11 @@
 .footer__navigation {
   display: flex;
-  flex-wrap: wrap;
-  gap: 18px;
+  column-gap: 18px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__navigation {
+    flex-direction: column;
+    row-gap: 32px;
+  }
 }
