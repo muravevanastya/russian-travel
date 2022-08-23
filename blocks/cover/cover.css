@@ -1,6 +1,6 @@
 .cover {
   width: calc(100% - 48px * 2);
-  margin: auto;
+  margin: 0 aut;
 }
 
 @media screen and (max-width: 1279px) {

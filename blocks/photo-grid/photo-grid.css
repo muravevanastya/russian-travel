@@ -3,12 +3,6 @@
   width: calc(100% - 48px * 2);
 }
 
-@media screen and (max-width: 1279px) and (min-width: 1024px) {
-  .photo-grid {
-    width: calc(100% - 48px * 2);
-  }
-}
-
 @media screen and (max-width: 1023px) and (min-width: 768px) {
   .photo-grid {
     width: calc(100% - 24px * 2);
