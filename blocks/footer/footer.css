@@ -1,16 +1,15 @@
 .footer {
-  width: calc(100% - 48px * 2);
   display: flex;
   justify-content: space-between;
-  padding: 92px 0 24px;
+  width: calc(100% - 48px * 2);
   margin: auto;
+  padding: calc(92px / 2) 0 24px;
 }
 
-
-@media screen and (max-width: 1023px) and (min-width: 768px) {
+@media screen and (max-width: 1023px) {
   .footer {
     width: calc(100% - 24px * 2);
-    padding: 88px 0 24px;
+    padding: calc(88px / 2) 0 24px;
   }
 }
 
@@ -18,7 +17,7 @@
   .footer {
     width: calc(100% - 16px * 2);
     flex-direction: column;
+    padding: calc(64px / 2) 0 24px;
     row-gap: 48px;
-    padding: 64px 0 24px;
   }
 }
