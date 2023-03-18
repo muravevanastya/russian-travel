@@ -8,8 +8,14 @@
 * насладиться пейзажами.
 
 ## Технологии
-* HTML
-* CSS
+<div>
+  <img src="https://img.shields.io/badge/HTML5-red?style=for-the-badge&logo=HTML5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-teal?style=for-the-badge&logo=CSS3&logoColor=white"/>
+</div>
+
+---
+А также
+
 * grid layout
 * адаптивная вёрстка
 * файловая структура по БЭМ
