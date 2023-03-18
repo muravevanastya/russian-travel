@@ -31,6 +31,3 @@ __Ссылка на проект:__ https://muravevanastya.github.io/russian-tra
 * клонировать репозиторий <code>git clone https://github.com/muravevanastya/russian-travel.git</code>
 * перейти в папку с проектом <code>cd russian-travel</code>
 * открыть файл <code>index.html</code>
-
-## Ссылка на проект
-https://muravevanastya.github.io/russian-travel/
